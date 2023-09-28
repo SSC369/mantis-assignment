@@ -1,0 +1,106 @@
+.main-container {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--bg);
+  min-height: 100vh;
+}
+
+.profile-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+.title {
+  color: var(--textColor);
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border: 1px solid var(--textColor);
+  border-radius: 6px;
+  height: 50px;
+  padding-left: 10px;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.label {
+  color: var(--textColor);
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.submit {
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: crimson;
+  color: var(--textColor);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  outline: none;
+  cursor: pointer;
+}
+.error {
+  font-size: 16px;
+  margin-top: 4px;
+  font-weight: 400;
+  color: crimson;
+}
+
+.success-image {
+  height: 60px;
+  width: 60px;
+}
+.success-container {
+  position: relative;
+  text-align: center;
+  align-self: center;
+  width: 80%;
+  height: 400px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 500px;
+  padding: 20px;
+}
+.success-title {
+  font-size: 24px;
+}
+.userid {
+  font-size: 14px;
+  color: crimson;
+  font-weight: 400;
+}
+.close-button {
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: absolute;
+}
